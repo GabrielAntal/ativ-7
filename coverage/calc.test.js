@@ -75,7 +75,7 @@ describe("Calc",()=>{
         }
 
         calc.calculaSal(funcionario)
-        expect(calc.novoSalario).toBe(1575);
+        expect(calc.novoSalario).toBe(1445);
 
     })
 
