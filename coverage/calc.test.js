@@ -54,4 +54,17 @@ describe("Calc",()=>{
 
     })
 
+
+    test('teste com cargo de testador e salario maior que 2000', ()=>{
+        const funcionario = {
+            nome: 'Albert Einstein',
+            salario: 2100.00,
+            cargo: 'Testador'
+        }
+
+        calc.calculaSal(funcionario)
+        expect(calc.novoSalario).toBe(1575);
+
+    })
+
 })
