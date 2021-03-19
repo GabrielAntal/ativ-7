@@ -79,4 +79,16 @@ describe("Calc",()=>{
 
     })
 
+    test('teste com cargo de Gerente e salario maior que 5000', ()=>{
+        const funcionario = {
+            nome: 'Stephen Hawking',
+            salario: 15000.00,
+            cargo: 'Gerente'
+        }
+
+        calc.calculaSal(funcionario)
+        expect(calc.novoSalario).toBe(10500);
+
+    })
+
 })
