@@ -28,4 +28,17 @@ describe("Calc",()=>{
 
     })
 
+
+    test('teste com cargo de DBA e salario maior que 2000', ()=>{
+        const funcionario = {
+            nome: 'Charles Darwin',
+            salario: 5500.00,
+            cargo: 'DBA'
+        }
+
+        calc.calculaSal(funcionario)
+        expect(calc.novoSalario).toBe(4125);
+
+    })
+
 })
