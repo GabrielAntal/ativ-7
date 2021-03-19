@@ -1,0 +1,22 @@
+{
+  "name": "ativ-7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielAntal/ativ-7.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielAntal/ativ-7/issues"
+  },
+  "homepage": "https://github.com/GabrielAntal/ativ-7#readme",
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}
