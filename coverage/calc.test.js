@@ -102,7 +102,7 @@ describe("Calc",()=>{
         expect(calc.novoSalario).toBe(2000);
 
     })
-    test('teste com cargo de Gerente e salario menor que 5000', ()=>{
+    test('teste com cargo inválido', ()=>{
         const funcionario = {
             nome: 'Trevor Belmont',
             salario: 700.00,
