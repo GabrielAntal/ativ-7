@@ -15,4 +15,17 @@ describe("Calc",()=>{
 
     })
 
+
+    test('teste com cargo de desenvolvedor e salario menor que 3000', ()=>{
+        const funcionario = {
+            nome: 'Isaac Newton',
+            salario: 2000.00,
+            cargo: 'Desenvolvedor'
+        }
+
+        calc.calculaSal(funcionario)
+        expect(calc.novoSalario).toBe(1800);
+
+    })
+
 })
