@@ -67,4 +67,16 @@ describe("Calc",()=>{
 
     })
 
+    test('teste com cargo de testador e salario menor que 2000', ()=>{
+        const funcionario = {
+            nome: 'Boson Higgs',
+            salario: 1700.00,
+            cargo: 'Testador'
+        }
+
+        calc.calculaSal(funcionario)
+        expect(calc.novoSalario).toBe(1575);
+
+    })
+
 })
