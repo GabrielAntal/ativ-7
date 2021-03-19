@@ -41,4 +41,17 @@ describe("Calc",()=>{
 
     })
 
+
+    test('teste com cargo de DBA e salario menor que 2000', ()=>{
+        const funcionario = {
+            nome: 'Thomas Jefferson',
+            salario: 1200.00,
+            cargo: 'DBA'
+        }
+
+        calc.calculaSal(funcionario)
+        expect(calc.novoSalario).toBe(1020);
+
+    })
+
 })
